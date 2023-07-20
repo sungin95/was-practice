@@ -6,6 +6,7 @@ import java.io.IOException;
 public class HttpRequest {
 
     private final RequestLine requestLine;
+    // 사실 헤더랑 바디도 있어야 진짜 완성이다.
     public Object getQueryString;
 
     public HttpRequest(BufferedReader br) throws IOException {
